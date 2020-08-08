@@ -1,0 +1,4 @@
+---
+
+- import_tasks: nodejs.yml
+  when: ansible_os_family == "RedHat"
